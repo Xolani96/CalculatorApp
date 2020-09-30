@@ -3,6 +3,26 @@ class Calculator {
         this.previousOperandButton = previousOperandButton
         this.currentOperandButton = currentOperandButton
     }
+    clear() {
+        this.currentOperand = ''
+        this.previousOperand = ''
+        this.operation = undefined
+    }
+    delete() {
+
+    }
+    appendNumber(number) {
+
+    }
+    chooseOperation(operation) {
+
+    }
+    compute() {
+
+    }
+    updateDisplay() {
+
+    }
 }
 
 const numberButton = document.querySelectorAll("[data-number]") //gets all the number operands
